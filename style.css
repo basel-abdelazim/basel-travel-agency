@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(233, 220, 112);
+  
+}
+ul{
+  color: rgb(172, 10, 23);
+  font-size: large;
+}
+.background image{
+  display: grid;
+  position: relative
+}
+.gallery-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1{
+font-size: 7cap;
+
+}
+p{
+  font-size: 2cap;
+}
+ .header{
+  display: flexbox;
+  position: fixed;
+ }
+.gallery {
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+ 
+.gallery-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.service{
+  display: flexbox;
+  width: 50%;
+  height: 50%;
+}
+@media only screen and (max-width: 600px) {
+  /* Your CSS here */
+  }
